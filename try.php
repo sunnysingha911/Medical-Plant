@@ -1,0 +1,9 @@
+<?php 
+	include("data_plant_information.php");
+	include("data_language.php");
+	include("data_uses.php");
+	include("data_block.php");
+	include("data_organisation.php");
+	include("data_image.php");
+	include("data_references.php");
+?>

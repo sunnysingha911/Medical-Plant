@@ -1,0 +1,358 @@
+	/*#ResponsiveTable{
+		width: 100%;
+		border-collapse: collapse;
+	}
+	tr:nth-of-type(odd){
+		background: #CCFFEB;
+	}
+	tr:nth-of-type(even){
+		background: #99FFD6;
+	}
+	#HeadRow{
+		background: #004C2E;
+		color:white;
+		font-weight:bold;
+	}
+	#ResponsiveTable td{
+		padding: 5px;
+		*border: 1px solid black;
+		text-align: left;
+	}
+	@media screen and (max-width: 800px){
+		#ResponsiveTable,
+		#ResponsiveTable tbody,
+		#ResponsiveTable tr,
+		#ResponsiveTable td{
+			display: block;
+		}
+		#HeadRow{
+			position:absolute;
+			left:9999px;
+			top:9999px;
+		}
+		#ResponsiveTable td{
+			border:none;
+			position:relative;
+			padding-left: 40%;
+			white-space: normal;
+			text-align:left;
+		}
+		#ResponsiveTable td:before{
+				position: absolute;
+				top:5px;
+				left:5px;
+				width:40%;
+				padding-right:10px;
+				white-space:nowrap;
+				text-align:left;
+				font-weight:bold;
+				content:attr(tableHeadData);
+		}
+	}
+	*/
+	
+	a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+	.plantinfo{
+			margin-left: 100px;
+			margin-right: 100px;
+	}
+	@media only screen and (max-width: 600px){
+		.plantinfo {
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+	}
+	.plantinfo2{
+			margin-left: 100px;
+			margin-right: 100px;
+	}
+	@media only screen and (max-width: 600px){
+		.plantinfo2{
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+	}
+	.head{
+		margin-left: 40px;
+	}
+	
+.container2 {
+width: 50%;
+height: 45%;
+*position: fixed;
+margin-bottom: 50px;
+margin-left: 25%;
+line-height: 1.4em;
+padding: 50px 50px;	
+}
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 480px){
+    .container2 {
+		width: 50%;
+		height: 50%;
+		position: absolute;
+		margin-top: -500px;
+		margin-left: 25%;
+		}
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    *border: 1px solid #ddd;
+}
+
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+body{
+	 font-family:Arial, Helvetica, sans-serif;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+
+input[type=number]{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password]{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select{
+    width: 25%;
+    padding: 5px 2px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select.dt1{
+    width: 35%;
+    padding: 10px 5px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit],input[type=button],input[type=reset] {
+    width: 100%;
+    background-color: #42ff00;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=file] {
+    width: 100%;
+    background-color: #80e3b3;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=button]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 1px;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+
+div.img1{
+	position: absolute;
+    top: 620px;
+    right: 130;
+    width: 400px;
+    height: 0px;
+    *border: 3px solid #73AD21;
+}
+
+div.img2{
+	position: absolute;
+    top: 270px;
+    right: 130;
+    width: 400px;
+    height: 10px;
+    *border: 3px solid #73AD21;
+}
+
+div.img3{
+	position: absolute;
+    top: 870px;
+    right: 130;
+    width: 600px;
+    height: 10px;
+    border: 3px solid #73AD21;
+}
+
+
+
+td {
+	height: 50px;
+}
+
+textarea.ta5 {
+	width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+
+* {box-sizing:border-box}
+.body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 100;
+}
+
+imgherb { 
+	*left: 40px;
+    width: 100%;
+    height: 50%;
+    opacity: 100;
+}
+

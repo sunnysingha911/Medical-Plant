@@ -1,0 +1,125 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="tab.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    background-image: url("6895448-green-background.jpg");
+	\\linear-gradient(to bottom, #ffffff 0%, #00cc00 100%);
+	background-repeat: no-repeat;	
+	background-position: center;
+    background-size: cover;
+	background-attachment: fixed;
+	background-color: #464646;
+	}
+	body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006633;
+	//#333;//#476b6b;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #4CAF50;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+</style>
+<!-- //6895448-green-background.jpg-->
+</head>
+<body>
+
+<!span class="container">
+  <img src="logo-iasst1.jpg">
+<!/span>
+
+<ul class="topnav">
+  <li><a href="index.php">Home</a></li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Habit</a>
+    <div class="dropdown-content">
+      <a href="option.php?option=Herb">Herb</a>
+	  <a href="option.php?option=Climber">Climbers</a>
+      <a href="option.php?option=Shrub">Shrubs</a>
+      <a href="option.php?option=Tree">Trees</a>
+    </div>
+  </li>
+ <!-- <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Habtat</a>
+    <div class="dropdown-content">
+      <a href="#">Aquatic</a>
+      <a href="#">Desert</a>
+      <a href="#">Wetlands</a>
+    </div>
+  </li>-->
+  <li><a href="gallery.php">Gallery</a></li>
+  <li><a href="imagegallery.php">Photo Gallery</a></li>
+  <li><a href="Search.php">Search</a></li>
+  <li><a href="external_resources.php">External Resources</a></li>
+  <li><a href="adm.php">Admin Login</a></li>
+  <!--<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Login</a>
+    <div class="dropdown-content">
+      <a href="admin.php">Admin</a>
+      <a href="user.php">User</a>
+    </div>
+  </li>--> 
+</ul>
+</body>
+</html>
